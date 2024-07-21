@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>About Me</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      padding: 0;
+      line-height: 1.6;
+    }
+
+    h1, h2, h3 {
+      color: black;
+    }
+
+    ul {
+      list-style-type: disc;
+      margin-left: 20px;
+      padding: 0;
+    }
+
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 5px 45px;
+      background-color: #6A6362;
+    }
+
+    .header a {
+      text-decoration: none;
+      color: black;
+      margin: 5px;
+      font-size: 18px;
+    }
+	.header b {
+      text-decoration: none;
+      border-bottom: 1px solid black;
+    }
+
+    .chat-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 50px;
+	  position: ralative;
+    }
+
+    .chat-bubble {
+      background-color: #f5f5f5;
+      border-radius: 10px;
+      padding: 20px;
+      margin: 20px auto;
+      max-width: 80%;
+      position: relative;
+    }
+
+    .chat-bubble::after {
+      content: '';
+      position: absolute;
+      bottom: -10px;
+      left: 50%;
+      transform: translateX(-50%);
+      border-width: 10px;
+      border-style: solid;
+      border-color: transparent transparent #f5f5f5 transparent;
+    }
+	.fa {
+		padding: 20px;
+		font-size: 30px;
+		width: 50px;
+		text-align: center;
+		text-decoration: none;
+	 margin: 40px 20px;
+		}    
+	.fa:hover {
+		opacity: 0.7;
+	}
+
+	.fa-facebook {
+		background: #3B5998;
+		color: white;
+	}
+	.fa-instagram {
+		background: #125688;
+		color: white;
+	}
+	.footer {
+		padding: 20px;
+		text-align: center;
+		background: #ddd;
+	}
+	.footer-logos {
+		display: flex; 
+		justify-content: center; 
+		align-items: center; 
+		margin-bottom: 30px;
+	}
+	.footer-logos img {
+		margin: 10px 10px; 
+		max-width: 150px;
+		height: auto;
+	}
+  </style>
+</head>
+<body>
+  <div class="header">
+    <div style="text-align: center;">
+      <a href="index.html"><h2>BACK</h2></a>
+    </div>
+  </div>
+  <div class="chat-container">
+    <div class="chat-bubble">
+      <h2>Introduce Yourself</h2>
+      <p>
+        Hi my name is Jaturongkaphon Gmaesungnoen, age 20 years old. Now I study at Kasetsart University, Kamphaeng Saen Campus, Faculty of Mechanical Engineering.
+      </p>
+      <p>Education:</p>
+      <ul>
+        <li>High school : Bang Pa-in "Rachanukroh 1" School</li>
+		<li>Current : Bachelor of Engineering in Mechanical Engineering, Kasetsart University, Kamphaeng Saen Campus</li>
+	  </ul>
+	  <p>Skill</p>
+	  <ul>
+		<li>Programming Languages: HTML, Python</li>
+		<li>Computer-Design : SolidWorks, AutoCad</li>
+	  </ul>	
+	  <p>Intersts & Activities</p>
+	  <ul>
+		<li>Wed Development : Passionate abour wed developmet and curremtly building personal blogs using HTML.</li>
+	  </ul>
+	  <p>Hobbies</p>
+	  <ul>
+	    <li>Gaming : Enjoys playing video games.</li>
+		<li>Redaing : Likes to read comic books.</li>
+		<li>Entertainment : Enjoys watching movies and listening to music</li>
+		<li>Driving : Enjoy road trips.</li>
+	  </ul>
+	  <p>Future Goals</p>
+	  <ul>  
+		<li>Aspires to pursue a Master's degree in Mechanical Engineering.</li>
+	  </ul>
+    </div>
+  </div>
+  <footer class="footer">
+        <div class="footer-logos">
+            <a href="https://www.facebook.com/profile.php?id=100006547938266" target="_blank">
+			<img src="/image/facebook_logo.png" alt="Logo Face" width="42" height="42"></a>
+			<a href="https://www.instagram.com/jaturongkaphon/?hl=en" target="_blank">
+            <img src="/image/Instagram_logo.png" alt="Logo Instagram" width="42" height="42"></a>
+			<a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=new" target="_blank">
+			<img src="/image/gmail_logo.png" alt="logo gmail"></a>
+			<a href="https://line.me/ti/p/PDl_ZZ60qh" target="_blank">
+			<img src="/image/line_logo.png" alt="logo line" width="42" height="42"></a>
+        </div>
+        <p>&copy; Connect with me</p>
+</body>
+</html>
